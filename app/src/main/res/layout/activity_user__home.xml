@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".User_Home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/quest_background2">
+
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="262dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="225dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="24dp"
+            android:columnCount="3"
+            android:orientation="horizontal"
+            android:rowCount="2">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="125dp"
+                android:layout_gravity="left|top"
+                android:width="120dp"
+                android:height="120dp"
+                android:textColor="@color/text_white"
+                android:background="@drawable/home_button"
+                android:text="Games" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="125dp"
+                android:layout_gravity="left|top"
+                android:width="120dp"
+                android:height="120dp"
+                android:textColor="@color/text_white"
+                android:background="@drawable/home_button"
+                android:text="Assignments" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="125dp"
+                android:textColor="@color/text_white"
+                android:layout_gravity="left|top"
+                android:width="120dp"
+                android:height="120dp"
+                android:background="@drawable/home_button"
+                android:text="Settings" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="125dp"
+                android:layout_gravity="left|top"
+                android:textColor="@color/text_white"
+                android:width="120dp"
+                android:height="120dp"
+                android:background="@drawable/home_button"
+                android:text="Shop" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="125dp"
+                android:textColor="@color/text_white"
+                android:layout_gravity="left|top"
+                android:width="120dp"
+                android:height="120dp"
+                android:background="@drawable/home_button"
+                android:text="Avatar" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="125dp"
+                android:layout_gravity="left|top"
+                android:textColor="@color/text_white"
+                android:width="120dp"
+                android:height="120dp"
+                android:background="@drawable/home_button"
+                android:text="account" />
+
+
+        </GridLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="70dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="-185dp"
+            android:layout_marginEnd="146dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/text_white"
+            android:text="XIXarcticassaultXIX" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="154dp"
+            android:layout_height="33dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="42dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:text="Avatar Level: 25"
+            android:textColor="@color/text_white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="151dp"
+            android:layout_height="36dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="109dp"
+            android:layout_marginEnd="42dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:text="Game Cash:  100,000"
+            android:textColor="@color/text_white"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
